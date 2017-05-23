@@ -1,7 +1,7 @@
 # TDD seed for C++
 
-- [ ] Passing unittest to start with
+- [x] Passing unittest to start with
 - [ ] Makefile for common tasks
-- [ ] .gitignore
+- [x] .gitignore
 - [ ] Examples for test library usage
 - [ ] CI integration
