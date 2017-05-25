@@ -4,4 +4,4 @@
 - [ ] Makefile for common tasks
 - [x] .gitignore
 - [ ] Examples for test library usage
-- [ ] CI integration
+- [x] CI integration
