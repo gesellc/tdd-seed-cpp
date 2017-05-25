@@ -27,7 +27,6 @@ matrix:
     - env: TRAVIS_EMPTY_JOB_WORKAROUND=true
 
   include:
-#  include:
 #    ##########################################################################
 #    # Check for code formatting errors
 #    ##########################################################################
