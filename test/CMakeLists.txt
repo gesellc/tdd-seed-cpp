@@ -1,13 +1,8 @@
-project(bankingApplication_tests)
+project(ApplicationTest)
 
 add_subdirectory(lib/googletest-release-1.8.0)
 
-include_directories(
-        ${gtest_SOURCE_DIR}/include
-        ${gtest_SOURCE_DIR}
-)
-
-add_executable(run_bankingApplication_tests
+add_executable(application_test
         application_test.cpp)
 
-target_link_libraries(run_bankingApplication_tests gtest gtest_main gmock gmock_main)
+target_link_libraries(application_test gtest_main gmock_main)

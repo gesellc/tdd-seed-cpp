@@ -1,16 +1,16 @@
 cmake_minimum_required(VERSION 3.1)
-project(BankApplicationProject)
+project(ApplicationMain)
 
 #add_definitions(-std=c++11)
 
 set(SOURCE_FILES main.cpp)
-add_executable(application_run ${SOURCE_FILES})
+add_executable(application_main ${SOURCE_FILES})
 
 include_directories(
         . # to be able to make google style includes
 )
 
 add_subdirectory(test)
-add_subdirectory(src)
+add_subdirectory(source)
 
-target_link_libraries(application_run application)
+target_link_libraries(application_main application)
