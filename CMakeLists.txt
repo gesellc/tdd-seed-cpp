@@ -6,9 +6,9 @@ project(ApplicationMain)
 set(SOURCE_FILES main.cpp)
 add_executable(application_main ${SOURCE_FILES})
 
-include_directories(
-        . # to be able to make google style includes
-)
+#include_directories(
+#        . # to be able to make google style includes
+#)
 
 add_subdirectory(test)
 add_subdirectory(source)
