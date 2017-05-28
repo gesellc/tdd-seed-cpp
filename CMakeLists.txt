@@ -10,6 +10,7 @@ include_directories(
         . # to be able to make google style includes
 )
 
-add_subdirectory(application_test)
+add_subdirectory(test)
+add_subdirectory(src)
 
-target_link_libraries(application_run)
+target_link_libraries(application_run application)
