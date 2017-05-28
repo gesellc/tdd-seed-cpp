@@ -112,5 +112,5 @@ script:
   - mkdir cmake-build
   - cd cmake-build
   - cmake ..
-  - cmake --build . --target run_bankingApplication_tests
-  - ./test/run_bankingApplication_tests
+  - cmake --build . --target application_test
+  - ./test/application_test
